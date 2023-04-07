@@ -1,0 +1,324 @@
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+#DivMere {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+#barnavigation {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
+.LiensNav {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+
+}
+
+.ContainerLiens {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+.DivGalery {
+
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TxtGalery {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.soulignement {
+    width: 45%;
+    height: 50px;
+    border-top-color: black;
+    border-top-style: solid;
+    opacity: 50%;
+    position: relative;
+    top: 30px;
+}
+
+.we {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    width: 65%;
+}
+
+.SectionImages {
+    position: relative;
+    top: 200px;
+    width: 90%;
+    margin: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.DivImages {
+    height: 240px;
+    width: 240px;
+}
+
+.im {
+    width: 100%;
+    height: 100%;
+}
+
+.SectionTexte {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 300px;
+    gap: 80px;
+    margin: 60px;
+    justify-content: center;
+}
+
+.DivTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+
+}
+
+.titre {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.texte {
+    text-align: center;
+    line-height: 30px;
+    /* text-justify: auto; */
+}
+
+.SectionDesigner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 380px;
+    
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(43, 38, 38, 0.406);
+}
+
+.DivBlanche {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.ImgDesigner {
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+    position: relative;
+    bottom: 160px;
+
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+}
+
+.Position {
+    font-size: 20px;
+    position: relative;
+    bottom: 164px;
+    word-wrap: normal;
+
+}
+
+.titre2 {
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.texte2 {
+    text-align: center;
+    line-height: 27px;
+    text-justify: auto;
+    font-size: 20px;
+    position: relative;
+    bottom: 130px;
+    
+}
+
+.pourcnt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    min-width: 200px;
+    height: 60px;
+    border-radius: 35px;
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(249, 121, 2);
+}
+
+
+.TxtBouton {
+    font-weight: bold;
+    color: black;
+}
+
+.Orange {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 480px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(249, 121, 2);
+}
+
+.txt {
+    background-size: contain;
+    font-size: 25px;
+    color: white;
+    width: 85%;
+    text-align: center;
+    line-height: 52px;
+    position: relative;
+    top: 50px;
+}
+
+.Team {
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    /* height: 350px; */
+    height: fit-content;
+    bottom: -225px;
+    /* border-style: dashed;
+    border-color: aqua; */
+}
+
+.MiniContenair{
+margin: 25px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 22%;
+}
+
+.photos {
+    width: 180px;
+    height: 180px;
+}
+
+.nom {
+    font-weight: bold;
+    position: relative;
+    top: 18px;
+    font-size: 25px;
+    width: 185px;
+}
+
+.role {
+    position: relative;
+    font-size: 18px;
+    top: 25px;
+
+}
+
+.descrtptn {
+    position: relative;
+    top: 45px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.IdeaSection {
+    position: relative;
+    bottom: -760px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    background-color: aqua;
+    height: 500px;
+    width: 100%;
+}
+.PourIdeaTxt{
+    background-color: rgba(0, 0, 255, 0.394);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ImIdeas{
+    width: 100%;
+    height: 100%;
+}
+.Ideas{
+    color: white;
+    position: relative;
+   
+}
+.texteIdeas{
+    color: rgb(238, 15, 15);
+    text-align: center;
+    width: 55%;
+}
