@@ -1,0 +1,202 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.DivImage {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.image1 {
+    height: 500px;
+    width: 100%;
+}
+.B
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(247, 249, 242);
+    position: absolute;
+    bottom: 540px;  
+    z-index: 5;
+    left: 300px;
+}
+.numero
+{
+    font-size: xx-large;
+    color: rgb(71, 133, 187)
+}
+.text1
+{
+    position: absolute;
+    color: white;
+    top: 60px;
+    left:370px; 
+}
+.text2
+{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left:300px;    
+}
+.TX1
+{
+    font-weight: bold;
+    font-size: 4rem;
+    width:45% ;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+.TX2
+{
+    width:40% ;
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top:30px ;
+}
+.bleu
+{
+    background-color:rgb(115, 216, 247) ;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    left: 300px;
+    top:50PX ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn
+{
+    color: white ;
+}
+.section3
+{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color:rgb(115, 216, 247) ;
+    top: 90px;
+    position: relative;
+}
+
+
+
+.imp
+{
+    font-weight: bold;
+    font-size: 2rem;
+    width:40%;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    color: aliceblue;
+    top: 40px;
+    bottom: 50px;   
+}
+.duis
+{
+    width:80% ;
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top:60px ;
+    color: aliceblue; 
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 75px ;
+}
+.c1{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 15%;
+    border-radius: 35px;
+    gap: 2px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    height: 67px;
+    width: 67px;
+    background-color:aqua;
+    border-radius: 38px;
+}
+.circleIm{
+    position: relative;
+    bottom: 5px;
+    height: 80%;
+    width: 80%;
+    /* border-radius: 30px; */
+}
+.MotiDiv{
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.MotiTxt{
+    color: aqua;
+    font-size: 1.6rem;
+    width: 75%;
+}
+.Parag{
+    position: relative;
+    top: 18px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 45px;
+}
+
+
+
+
+
+.c2{
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    border-radius: 50px;
+    gap: 2px;
+}
+.c3{
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    border-radius: 50px;
+    gap: 2px;
+}
+.c4{
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    border-radius: 50px;
+    gap: 2px;
+}

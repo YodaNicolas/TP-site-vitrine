@@ -1,13 +1,20 @@
 * {
-    text-decoration: none;
     padding: 0px;
     margin: 0px;
     font-family: Montserrat;
 }
 
+.nodeco {
+    text-decoration: none;
+}
+
 #DivMere {
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
 }
 
@@ -123,7 +130,6 @@
 .texte {
     text-align: center;
     line-height: 30px;
-    /* text-justify: auto; */
 }
 
 .SectionDesigner {
@@ -131,7 +137,7 @@
     display: flex;
     justify-content: center;
     top: 380px;
-    
+
     width: 100%;
     height: fit-content;
     background-color: rgba(43, 38, 38, 0.406);
@@ -181,7 +187,7 @@
     font-size: 20px;
     position: relative;
     bottom: 130px;
-    
+
 }
 
 .pourcnt {
@@ -222,6 +228,7 @@
 }
 
 .txt {
+    padding-bottom: 200px;
     background-size: contain;
     font-size: 25px;
     color: white;
@@ -233,7 +240,6 @@
 }
 
 .Team {
-    /* padding: 10px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -242,15 +248,14 @@
     position: relative;
     z-index: 2;
     width: 100%;
-    /* height: 350px; */
     height: fit-content;
-    bottom: -225px;
+    bottom: -325px;
     /* border-style: dashed;
     border-color: aqua; */
 }
 
-.MiniContenair{
-margin: 25px;
+.MiniContenair {
+    margin: 25px;
     padding: 35px;
     display: flex;
     flex-direction: column;
@@ -289,16 +294,16 @@ margin: 25px;
 
 .IdeaSection {
     position: relative;
-    bottom: -760px;
+    bottom: -400px;
     display: flex;
     flex-wrap: wrap;
-   
     background-color: aqua;
     height: 500px;
     width: 100%;
 }
-.PourIdeaTxt{
-    background-color: rgba(0, 0, 255, 0.394);
+
+.PourIdeaTxt {
+    /* background-color: rgba(0, 0, 255, 0.394); */
     position: absolute;
     width: 100%;
     height: 100%;
@@ -306,19 +311,277 @@ margin: 25px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.ImIdeas{
+
+.ImIdeas {
     width: 100%;
     height: 100%;
 }
-.Ideas{
+
+.Ideas {
     color: white;
     position: relative;
-   
+font-size: 2rem;
+font-weight: bold;
 }
-.texteIdeas{
-    color: rgb(238, 15, 15);
+
+.texteIdeas {
+    position: relative;
+    top: 15px;
+    color: white;
+    font-weight: 650;
     text-align: center;
+    line-height: 27px;
     width: 55%;
+}
+
+/* PAS FINI */
+
+/* .TouchCarousel{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 225px;
+    width: 99%;
+    height: 50px;
+    border-style: dashed;
+    border-color: brown;
+}  */
+.TaillCarousel {
+    height: 30px;
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.TcheGch {
+    position: absolute;
+    left: -10px;
+    bottom: 220px;
+}
+
+.TcheDrte {
+    margin-right: -10px;
+    padding-right: -10px;
+    position: relative;
+    right: -628px;
+    bottom: 50px;
+}
+
+.Desordre {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    border-style: dashed;
+    border-color: black;
+    position: relative;
+    top: 500px;
+}
+
+.prj {
+    display: list-item;
+    flex-wrap: wrap;
+    padding: 100px;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 500px;
+    /* background-color: aqua; */
+}
+
+.im1 {
+    /* display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row; */
+    /* right: 30px;
+    top: 490px; */
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+    width: 380px;
+    height: 380px;
+}
+
+.im2 {
+    position: relative;
+
+    /* left: 80px;
+    top: 530px; */
+    left: 180px;
+    bottom: 20px;
+    width: 480px;
+    height: 300px;
+}
+
+.im3 {
+    position: relative;
+   left: 400px;
+    bottom: 280px;
+    width: 350px;
+    height: 220px;
+}
+
+.im4 {
+
+    position: relative;
+    /* left: 570px;
+    top: 500px; */
+    left: 400px;
+    width: 400px;
+    height: 530px;
+}
+
+.Prjet {
+    position: relative;
+    bottom: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 7.5rem;
+}
+
+/* PAS FINI */
+
+
+.Divicones {
+    position: relative;
+    top: 600px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+
+.imIc {
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 120px;
+    width: 120px;
+}
+
+.DivTxT {
+    position: relative;
+    top: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.TxT {
+    margin: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.OrangeBas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 760px;
+    position: relative;
+    top: 800px;
+    background-color: rgb(249, 121, 2);
+}
+
+.Lfrm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.form {
+
+    position: relative;
+    top: 20px;
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+::placeholder {
+    color: black;
+    padding-left: 25px;
+}
+
+.Titre {
+    position: relative;
+    font-size: 18px;
+}
+
+.DivZne {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Zone {
+    margin: 0px;
+    /* padding-left: 15px; */
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: black;
+    border-radius: 30px;
+    width: 100%;
+    height: 32px;
+    background-color: rgba(177, 161, 161, 0.875);
+}
+
+#Mess {
+
+    /* padding: 15px; */
+    background-color: rgba(177, 161, 161, 0.875);
+    border-radius: 15px;
+}
+
+.txtarea {
+    width: 100%;
+}
+
+.SubPosi {
+    position: relative;
+    top: 100px;
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 800px;
+    background-color: rgb(28, 26, 26);
+}
+
+.PBlanc {
+    position: relative;
+    top: 110px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.ntrlien{
+    color: white ;
+}
+
+.Dernier {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+color: white;
+    bottom: 10px;
+    gap: 10px;
 }
