@@ -1,0 +1,446 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+.DIVMERE {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nodeco {
+    text-decoration: none;
+}
+
+#barnavigation {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.LiensNav {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+}
+
+.ContainerLiens {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+.DivImage {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+.image1 {
+    height: 500px;
+    width: 100%;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(247, 249, 242);
+    position: absolute;
+    bottom: 560px;
+    z-index: 5;
+    left: 300px;
+}
+
+.numero {
+    font-size: xx-large;
+    color: rgb(71, 133, 187)
+}
+
+.text1 {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 370px;
+}
+
+.text2 {
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 300px;
+}
+
+.TX1 {
+    font-weight: bold;
+    font-size: 4rem;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    /* left: 120px; */
+}
+
+.TX2 {
+    width: 40%;
+    text-align: left;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+.bleu {
+    background-color: rgb(115, 216, 247);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    left: 300px;
+    top: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn {
+    color: white;
+}
+
+.section3 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(115, 216, 247);
+    top: 90px;
+    position: relative;
+}
+
+.imp {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+    top: 40px;
+    bottom: 50px;
+}
+
+.duis {
+    width: 80%;
+    text-align: left;
+    position: relative;
+    top: 60px;
+    color: aliceblue;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    min-height: 400px;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 75px;
+}
+
+.c1 {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 200px;
+    border-radius: 35px;
+    gap: 2px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    height: 67px;
+    width: 67px;
+    background-color: aqua;
+    border-radius: 38px;
+}
+
+.circleIm {
+    position: relative;
+    bottom: 5px;
+    height: 80%;
+    width: 80%;
+    /* border-radius: 30px; */
+}
+
+.MotiDiv {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.MotiTxt {
+    color: aqua;
+    font-size: 1.6rem;
+    width: 75%;
+}
+
+.Parag {
+    position: relative;
+    top: 18px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 45px;
+}
+
+.Collab {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    flex-wrap: wrap;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.Collab1 {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    height: fit-content;
+    width: 41%;
+}
+
+.ImColab {
+    width: 460px;
+    height: 530px;
+}
+
+.txtcolab1 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 94%;
+    text-align: left;
+}
+
+.Collab2 {
+    margin-left: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: fit-content;
+    width: 52%;
+}
+
+.pColab2 {
+    width: 90%;
+    font-size: 22px;
+}
+
+.p2Colab2 {
+    font-size: 22px;
+    width: 90%;
+    position: relative;
+    color: rgb(56, 54, 54);
+}
+
+.Undertanding {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 350px;
+    width: 100%;
+    height: fit-content;
+}
+
+.UndertandingGch {
+    padding-left: 35px;
+    text-align: left;
+    width: 60%;
+    height: fit-content;
+}
+
+.titrtUndeG {
+    width: 55%;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.txtUndeG {
+    width: 85%;
+    position: relative;
+    top: 33px;
+    font-size: 22px;
+    color: rgb(46, 44, 44);
+}
+
+.txLm {
+    color: white;
+    text-decoration: none;
+}
+
+.LearnMoreBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+    left: 20px;
+    border-radius: 25px;
+    border-style: none;
+    width: 180px;
+    height: 70px;
+    background-color: aqua;
+}
+
+.UndertandingDrt {
+    position: relative;
+    right: 20px;
+    width: 34%;
+    min-height: 700px;
+    height: fit-content;
+}
+
+.ImUnderstan {
+    position: absolute;
+    left: 0px;
+    height: 650px;
+    width: 520px;
+}
+
+.separerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DivIcoUnderstanding {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    top: 37pc;
+    width: 80%;
+    height: 50px;
+}
+
+.Ico {
+    height: 50px;
+    width: 50px;
+}
+
+.SectionTeam {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    top: 350px;
+    height: fit-content;
+}
+
+.TtreTeam {
+    position: relative;
+    left: 100px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.Team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: fit-content;
+}
+
+.MiniContenair {
+    margin: 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 23%;
+}
+
+.photos {
+    width: 220px;
+    height: 220px;
+}
+
+.nom {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    position: relative;
+    top: 18px;
+    font-size: 25px;
+    width: 235px;
+}
+
+.role {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    top: 25px;
+    width: 230px;
+}
+
+.descrtptn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+    width: 200px;
+    text-align: center;
+    color: rgb(49, 46, 46);
+    font-weight: 500;
+}
+
+.DivIcoTeam {
+    height: 50px;
+    width: 220px;
+    background-color: rgba(0, 0, 255, 0.473);
+    position: relative;
+    top: 55px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12px;
+}
